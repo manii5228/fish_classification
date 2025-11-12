@@ -19,17 +19,26 @@
 
 ## Architecture
 Dataset (Train/Validation)
-↓
-Data Augmentation → Preprocessing (Resize 224×224, RGB Conversion)
-↓
-MobileNetV2 (Feature Extraction)
-↓
-GlobalAveragePooling → BatchNormalization → Dropout(0.3)
-↓
-Dense Layer (Softmax Activation)
-↓
-Prediction (Fish Species)
 
+↓
+
+Data Augmentation → Preprocessing (Resize 224×224, RGB Conversion)
+
+↓
+
+MobileNetV2 (Feature Extraction)
+
+↓
+
+GlobalAveragePooling → BatchNormalization → Dropout(0.3)
+
+↓
+
+Dense Layer (Softmax Activation)
+
+↓
+
+Prediction (Fish Species)
 
 ---
 
@@ -45,12 +54,19 @@ Prediction (Fish Species)
 
 ## Dataset
 The dataset used is **NA_Fish_Dataset**, consisting of multiple fish species organized into:
-NA_Fish_Dataset/
+NA_Fish_Dataset
+/
+
 │
+
 ├── train/
+
 │ ├── class_1/
+
 │ ├── class_2/
+
 │ └── ...
+
 │
 └── val/
 ├── class_1/
