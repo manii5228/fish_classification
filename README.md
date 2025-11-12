@@ -109,9 +109,11 @@ Achieved high validation accuracy through transfer learning
 <img width="987" height="374" alt="Image" src="https://github.com/user-attachments/assets/a2ae9e4a-5290-40b7-a0b1-d2c61519037f" />
 
 Model successfully classified test images with strong confidence
+
 <img width="389" height="411" alt="Image" src="https://github.com/user-attachments/assets/742eaf3a-a25b-4e17-8552-8978db29dc6f" />
 
 Visual results include confusion matrix and accuracy/loss 
+
 <img width="483" height="418" alt="Image" src="https://github.com/user-attachments/assets/bd7cd284-b7af-4ef2-b1b1-3265d2e20f48" />s
 
 ## SDG Achievement
