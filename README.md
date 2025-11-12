@@ -1,7 +1,8 @@
 # Fish Classification Using Deep Learning (TensorFlow & MobileNetV2)
 
 ## Overview
-This project focuses on developing an **AI-based Fish Classification System** using **TensorFlow** and **Keras**.  
+
+* This project focuses on developing an **AI-based Fish Classification System** using **TensorFlow** and **Keras**.  
 The model leverages **transfer learning** with **MobileNetV2**, a lightweight yet powerful CNN architecture pre-trained on ImageNet.  
 It accurately classifies fish species from images, helping automate biodiversity research, fisheries monitoring, and aquaculture systems.
 
