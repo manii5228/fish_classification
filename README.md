@@ -110,6 +110,7 @@ import os
 ## Results
 
 Achieved high validation accuracy through transfer learning
+![results/Acc & Loss.png]
 
 Model successfully classified test images with strong confidence
 
