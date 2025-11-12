@@ -18,27 +18,32 @@
 ---
 
 ## Architecture
-Dataset (Train/Validation)
-
-↓
-
-Data Augmentation → Preprocessing (Resize 224×224, RGB Conversion)
-
-↓
-
-MobileNetV2 (Feature Extraction)
-
-↓
-
-GlobalAveragePooling → BatchNormalization → Dropout(0.3)
-
-↓
-
-Dense Layer (Softmax Activation)
-
-↓
-
-Prediction (Fish Species)
+    ┌────────────────────────────┐
+    │     Image Dataset          │
+    └────────────┬───────────────┘
+                 │
+     ┌───────────▼────────────┐
+     │   Data Augmentation    │
+     └───────────┬────────────┘
+                 │
+     ┌───────────▼────────────┐
+     │   Preprocessing Layer  │
+     └───────────┬────────────┘
+                 │
+     ┌───────────▼────────────┐
+     │   MobileNetV2 Base     │
+     │  (Feature Extraction)  │
+     └───────────┬────────────┘
+                 │
+     ┌───────────▼────────────┐
+     │ GlobalAvgPooling + BN  │
+     │ Dropout(0.3)           │
+     │ Dense(Softmax) Layer   │
+     └───────────┬────────────┘
+                 │
+     ┌───────────▼────────────┐
+     │   Prediction Output    │
+     └────────────────────────┘
 
 ---
 
