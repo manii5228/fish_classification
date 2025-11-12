@@ -105,8 +105,9 @@ import os
 
 ## Results
 
+ALL the sample result images are available in result folder
+
 Achieved high validation accuracy through transfer learning
-![[results/Acc & Loss.png](https://github.com/manii5228/fish_classification/blob/main/results/Acc%20%26%20Loss.png)]
 
 Model successfully classified test images with strong confidence
 
