@@ -48,7 +48,7 @@
 ---
 
 ## Technologies Used
-- **Python 3.x**
+- **Python 3**
 - **TensorFlow / Keras**
 - **Matplotlib** – for data visualization  
 - **scikit-learn** – for confusion matrix and evaluation metrics  
@@ -59,24 +59,22 @@
 
 ## Dataset
 The dataset used is **NA_Fish_Dataset**, consisting of multiple fish species organized into:
-NA_Fish_Dataset
-/
 
-│
+---
 
-├── train/
+## ⚙️ Key Files Explained
 
-│ ├── class_1/
+| File/Folder | Description |
+|--------------|-------------|
+| **NA_Fish_Dataset/** | Contains all training and validation images categorized by species. |
+| **Fish_Classification.ipynb** | Main Python/TensorFlow notebook containing data loading, model building, training, evaluation, and prediction. |
+| **fc_model.keras** | The final saved model file (Keras format) for deployment or future inference. |
+| **results/** | Contains generated graphs and metrics like accuracy/loss curves and confusion matrix images. |
+| **images/** | Stores supporting visuals like the architecture diagram, SDG icons, and dataset samples. |
+| **README.md** | Documentation explaining setup, usage, architecture, and project purpose. |
 
-│ ├── class_2/
+---
 
-│ └── ...
-
-│
-└── val/
-├── class_1/
-├── class_2/
-└── ...
 
 
 You can replace this dataset with your own structured image dataset for custom training.
