@@ -60,10 +60,6 @@
 ## Dataset
 The dataset used is **NA_Fish_Dataset**, consisting of multiple fish species organized into:
 
----
-
-## ⚙️ Key Files Explained
-
 ```
 Fish_Classification_Project/
 │
@@ -110,7 +106,7 @@ import os
 ## Results
 
 Achieved high validation accuracy through transfer learning
-![results/Acc & Loss.png]
+![[results/Acc & Loss.png](https://github.com/manii5228/fish_classification/blob/main/results/Acc%20%26%20Loss.png)]
 
 Model successfully classified test images with strong confidence
 
