@@ -64,15 +64,26 @@ The dataset used is **NA_Fish_Dataset**, consisting of multiple fish species org
 
 ## ⚙️ Key Files Explained
 
-| File/Folder | Description |
-|--------------|-------------|
-| **NA_Fish_Dataset/** | Contains all training and validation images categorized by species. |
-| **Fish_Classification.ipynb** | Main Python/TensorFlow notebook containing data loading, model building, training, evaluation, and prediction. |
-| **fc_model.keras** | The final saved model file (Keras format) for deployment or future inference. |
-| **results/** | Contains generated graphs and metrics like accuracy/loss curves and confusion matrix images. |
-| **images/** | Stores supporting visuals like the architecture diagram, SDG icons, and dataset samples. |
-| **README.md** | Documentation explaining setup, usage, architecture, and project purpose. |
-
+```
+Fish_Classification_Project/
+│
+├── 📂 NA_Fish_Dataset/
+│ ├── 📂 train/ # Training dataset (80%)
+│ │ ├── Class_1/ # Example: Tuna
+│ │ ├── Class_2/ # Example: Salmon
+│ │ ├── Class_3/ # Example: Trout
+│ │ └── ...
+│ │
+│ └── 📂 val/ # Validation dataset (20%)
+│ ├── Class_1/
+│ ├── Class_2/
+│ ├── Class_3/
+│ └── ...
+│
+├── 🧩 fc_model.keras # Saved trained model file
+│
+├── 📄 Fish_Classification.ipynb # Main notebook/code file
+```
 ---
 
 
