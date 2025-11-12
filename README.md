@@ -84,9 +84,6 @@ Fish_Classification_Project/
 │
 ├── 📄 Fish_Classification.ipynb # Main notebook/code file
 ```
----
-
-
 
 You can replace this dataset with your own structured image dataset for custom training.
 
@@ -132,3 +129,4 @@ SDG 4 – Quality Education: Promotes AI learning in sustainability
 
 This project demonstrates how AI and deep learning can enhance marine research through automated fish classification.
 The system is scalable, accurate, and applicable for environmental conservation, education, and smart aquaculture solutions.
+:shipit:
